@@ -1,0 +1,14 @@
+# models/sources.yml
+
+version: 2
+
+sources:
+  - name: postgresql
+    database: prodia_test
+    schema: public
+    tables:
+      - name: patients
+      - name: doctors
+      - name: appointments
+      - name: procedures
+      - name: invoices
